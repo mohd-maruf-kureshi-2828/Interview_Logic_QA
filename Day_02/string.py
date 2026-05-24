@@ -78,8 +78,33 @@ name="Maruf"
 lowerName=name.lower()
 print(lowerName)
 """
-
+"""
 #Q10 : count the number of times a word is repeated in a string
 name="python is a easy language and python is a popular language"
 count = name.count("python")
 print(count)
+"""
+
+"""
+# Q 11 : anagram check anagram means same letter but words different
+l1='listen'
+l2='silent'
+# print(sorted(l1))
+# print(sorted(l2))
+
+if sorted(l1) == sorted(l2):
+    print('Anagram')
+else:
+    print('not anagram')
+"""
+
+# string compresion
+name="maruf kureshi"
+count = 1
+for i in range(len(name)-1):
+    if name[i] == name[i+1]:
+        count += 1
+    else:
+        print(name[i]+str(count),end="")
+        count = 1
+print(name[-1]+str(count))
