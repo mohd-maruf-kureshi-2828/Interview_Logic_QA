@@ -93,7 +93,7 @@ print(factorial(5))
 # Base condition = recursion ko stop karti hai
 #
 # Recursive call = function ka khud ko call karna
-#
+
 # Base condition nahi hogi to recursion
 # continuously chal sakti hai.
 
@@ -104,28 +104,28 @@ print(factorial(5))
 
 
 # Q1. What is recursion?
-#
+
 # Answer:
 # Recursion is a process where a function
 # calls itself.
 
 
 # Q2. What is a base condition?
-#
+
 # Answer:
 # A base condition is the condition that
 # stops the recursion.
 
 
 # Q3. Why is a base condition important?
-#
+
 # Answer:
 # It stops the recursive calls and prevents
 # the function from running continuously.
 
 
 # Q4. What is a recursive call?
-#
+
 # Answer:
 # When a function calls itself,
 # it is called a recursive call.
